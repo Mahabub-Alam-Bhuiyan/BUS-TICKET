@@ -1,4 +1,10 @@
-
+@media (max-width : 400px){
+   .O_heading{
+      
+      font-size: 33px;
+      
+  }
+}
 
 @media (max-width : 991px){
 

@@ -215,9 +215,7 @@
                 <div class="testimonial-item">
                     <img class="offer" src="pic/offer11.jpg" alt="">
                 </div>
-
             </div>
-
         </div>
     </section>
 
@@ -508,10 +506,18 @@
                 autoplay: true,
                 autoplaytimeout: 4000,
                 // Responsive 
-                items: 3,
-                itemsDesktopSmall: 3,
-                itemsTablet: 2,
-                itemsMobile: 1
+                // items: 3,
+                responsive:{
+        0:{
+            items:1
+        },
+        576:{
+            items:2
+        },
+        991:{
+            items:3
+        }
+    }
             });
             //counter//
 
